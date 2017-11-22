@@ -2,9 +2,13 @@
 Some common tasks can be done by neo4j
 
 # Query City Graph
-## Step of Demo
+## Step of Demo (on Windows)
 1. Install neo4j and start server.
+  * Download: https://neo4j.com/download/ You will get a exe: neo4j-desktop-1.0.4-setup.exe.
+  * Just install exe. It may require you to login with some SNS account (like google account)
+  * Use the neo desktop to create a LOCAL database. LOCAL database don't need username/password. And start the database server.
 2. Prepare data using below statements.
+  * Open created database and click `manage->Open Browser`.
 ```cypher
 CREATE (beijing: City {name:"beijing"} ),
 (shanghai: City {name:"shanghai"} ),
