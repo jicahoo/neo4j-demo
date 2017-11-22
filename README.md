@@ -48,4 +48,25 @@ CREATE (beijing: City {name:"beijing"} ),
 ```bash
 pip install neo4j-driver
 ```
-3. Just run Python script:
+3. Just run Python script:query_city_graph.py. Then you will got all cities where Shanghai KNOWS with 2 hops. Output is like below:
+```text
+guangzhou
+	shanghai -> guangzhou
+beijing
+	shanghai -> guangzhou
+	beijing -> guangzhou
+xiamen
+	shanghai -> guangzhou
+	guangzhou -> xiamen
+zhuhai
+	shanghai -> guangzhou
+	guangzhou -> zhuhai
+zhengzhou
+	shanghai -> zhengzhou
+qingdao
+	shanghai -> zhengzhou
+	zhengzhou -> qingdao
+kunming
+	shanghai -> zhengzhou
+	zhengzhou -> kunming
+```
