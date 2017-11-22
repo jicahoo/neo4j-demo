@@ -39,6 +39,7 @@ CREATE (beijing: City {name:"beijing"} ),
 (zhuhai)-[:KNOWS]->(guilin),
 (beijing)-[:KNOWS]->(guangzhou)
 ```
+
  * You will got below cities graph
    ![graph](assets/All_Cities.svg "Logo Title Text 1")
 
