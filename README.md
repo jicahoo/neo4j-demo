@@ -10,7 +10,7 @@ Some common tasks can be done by neo4j
 2. Prepare data using below statements.
   * Open created database and click `manage->Open Browser`. 
   ![screenshot](assets/Neo4jDesktopBrowser.PNG "Logo Title Text 1")
-  * Execute below cypher statments
+  * Execute below cypher statments to prepare data.
 ```cypher
 CREATE (beijing: City {name:"beijing"} ),
 (shanghai: City {name:"shanghai"} ),
