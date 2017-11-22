@@ -48,7 +48,7 @@ CREATE (beijing: City {name:"beijing"} ),
 ```bash
 pip install neo4j-driver
 ```
-3. Just run Python script:query_city_graph.py. Then you will got all cities where Shanghai KNOWS with 2 hops and its paths. Output is like below:
+3. Just run Python script:query_city_graph.py. Then you will got all cities where Shanghai KNOWS within 2 hops and corresponding paths. Output is like below:
 ```text
 guangzhou
 	shanghai -> guangzhou
