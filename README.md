@@ -10,7 +10,7 @@ Some common tasks can be done by neo4j
 2. Prepare data using below statements.
   * Open created database and click `manage->Open Browser`. 
   ![screenshot](assets/Neo4jDesktopBrowser.PNG "Logo Title Text 1")
-
+  * Execute below cypher statments
 ```cypher
 CREATE (beijing: City {name:"beijing"} ),
 (shanghai: City {name:"shanghai"} ),
@@ -39,6 +39,8 @@ CREATE (beijing: City {name:"beijing"} ),
 (zhuhai)-[:KNOWS]->(guilin),
 (beijing)-[:KNOWS]->(guangzhou)
 ```
+ * You will got below cities graph
+   ![graph](assets/All_Cities.svg "Logo Title Text 1")
 
 2. Install python driver (http://neo4j.com/docs/api/python-driver/current/)
 ```bash
