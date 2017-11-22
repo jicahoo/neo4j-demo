@@ -3,7 +3,7 @@ Some common tasks can be done by neo4j
 
 # Query City Graph
 ## Step of Demo
-1. Install neo4j
+1. Install neo4j and start server.
 2. Prepare data using below statements.
 ```cypher
 CREATE (beijing: City {name:"beijing"} ),
