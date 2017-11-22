@@ -1,5 +1,5 @@
 # neo4j-demo
-Some common tasks can be done by neo4j
+Some common tasks can be done by neo4j.
 
 # Query City Graph
 ## Step of Demo (on Windows)
