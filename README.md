@@ -41,6 +41,7 @@ CREATE (beijing: City {name:"beijing"} ),
 ```
 
  * You will got below cities graph
+ 
    ![graph](assets/All_Cities.svg "Logo Title Text 1")
 
 2. Install python driver (http://neo4j.com/docs/api/python-driver/current/)
