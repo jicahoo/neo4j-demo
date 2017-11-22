@@ -8,7 +8,9 @@ Some common tasks can be done by neo4j
   * Just install exe. It may require you to login with some SNS account (like google account)
   * Use the neo desktop to create a LOCAL database. LOCAL database don't need username/password. And start the database server.
 2. Prepare data using below statements.
-  * Open created database and click `manage->Open Browser`.
+  * Open created database and click `manage->Open Browser`. 
+  ![screenshot](asssets/All_Cities.svg "Logo Title Text 1")
+
 ```cypher
 CREATE (beijing: City {name:"beijing"} ),
 (shanghai: City {name:"shanghai"} ),
